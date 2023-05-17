@@ -1,1 +1,1 @@
-image: spack/ubuntu-xenial
+image: faizanbashir/ubuntu-xenial:latest
