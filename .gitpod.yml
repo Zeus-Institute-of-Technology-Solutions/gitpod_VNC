@@ -1,1 +1,2 @@
-image: github.com/sounddrill31/ubuntu-xenial/Dockerfile
+image:
+  file: .gitpod.Dockerfile
