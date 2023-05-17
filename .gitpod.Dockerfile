@@ -10,6 +10,7 @@ RUN apt-get update && apt-get install -y \
     git \
     git-lfs \
     sudo \
+    neofetch \
     && apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/*
 
 # Create the gitpod user. UID must be 33333.
