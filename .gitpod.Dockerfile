@@ -15,6 +15,6 @@ RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/*
 RUN useradd -l -u 33333 -G sudo -md /home/gitpod -s /bin/bash -p gitpod gitpod
 
 USER gitpod
-
+RUN  apt -f install apt-transport-https
 RUN apt update 
 RUN apt install -y git git-lfs sudo neofetch
