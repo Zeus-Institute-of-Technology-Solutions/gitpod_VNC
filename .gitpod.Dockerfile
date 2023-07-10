@@ -10,6 +10,7 @@ RUN apt-get update && apt-get install -yq \
     git \
     git-lfs \
     sudo \
+    wget \
     && apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/*
 
 # Create the gitpod user. UID must be 33333.
