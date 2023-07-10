@@ -9,12 +9,12 @@ FROM ubuntu:18.04
 #RUN apt-get update && apt-get install -y git git-lfs sudo neofetch
 #    neofetch \
 #    && apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/*
-RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/*
+#RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/*
 
 # Create the gitpod user. UID must be 33333.
 RUN useradd -l -u 33333 -G sudo -md /home/gitpod -s /bin/bash -p gitpod gitpod
 
 USER gitpod
-RUN wget http://archive.ubuntu.com/ubuntu/pool/universe/a/apt/apt-transport-https_2.4.5_all.deb && dpkg -i *.deb
-RUN apt update 
-RUN apt install -y git git-lfs sudo neofetch
+#RUN wget http://archive.ubuntu.com/ubuntu/pool/universe/a/apt/apt-transport-https_2.4.5_all.deb && dpkg -i *.deb
+#RUN apt update 
+#RUN apt install -y git git-lfs sudo neofetch
