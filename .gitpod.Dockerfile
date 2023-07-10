@@ -1,4 +1,4 @@
-FROM debian:9
+FROM debian:stretch
 
 # Install:
 # - git (and git-lfs), for git operations (to e.g. push your work).
