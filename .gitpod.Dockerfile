@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM ubuntu:18.04
 
 # Install:
 # - git (and git-lfs), for git operations (to e.g. push your work).
